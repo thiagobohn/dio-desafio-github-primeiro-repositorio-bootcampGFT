@@ -9,15 +9,15 @@
  */
 public class Quadrilatero { //Classe que implementa a sobrecarga dos métodos
     
-    public static void area(double lado){//Método que implementa o cálculo da área do quadrado, necessário receber apenas 1 parâmetro
-        System.out.println("Área do quadrado é: " + lado * lado);
+    public static double area(double lado){//Método que implementa o cálculo da área do quadrado, necessário receber apenas 1 parâmetro
+        return lado * lado;//Retorno da função
     }
     
-    public static void area(double lado1, double lado2){//Método que implementa o cálculo da área do retângulo, necessário receber 2 parâmetros
-        System.out.println("Área do retândulo é: " + lado1 * lado2);
+    public static double area(double lado1, double lado2){//Método que implementa o cálculo da área do retângulo, necessário receber 2 parâmetros
+        return lado1 * lado2;//Retorno da função
     }
     
-    public static void area(double baseMaior, double baseMenor, double altura){//Método que implementa o cálculo da área do trapézio, necessário receber 3 parâmetros
-        System.out.println("Área do trapézio é: " + (baseMaior + baseMenor) * altura / 2);
+    public static double area(double baseMaior, double baseMenor, double altura){//Método que implementa o cálculo da área do trapézio, necessário receber 3 parâmetros
+        return (baseMaior + baseMenor) * altura / 2;//Retorno da função
     }
 }

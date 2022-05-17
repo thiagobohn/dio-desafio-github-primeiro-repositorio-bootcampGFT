@@ -15,9 +15,9 @@ public class Main {
     public static void main(String[] args) {
         
         //Proeto que implementa sobrecarga de métodos
-        Quadrilatero.area(3.5);
-        Quadrilatero.area(4, 6);
-        Quadrilatero.area(3, 2, 6);
+        System.out.println("Área do quadrado é: " + Quadrilatero.area(3.5));
+        System.out.println("Área do retândulo é: " + Quadrilatero.area(4, 6));
+        System.out.println("Área do trapézio é: " + Quadrilatero.area(3, 2, 6));
     }
     
 }

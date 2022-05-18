@@ -32,9 +32,10 @@ public class Ex6_Fatorial {
         //loop criado para calcular o fatorial do número fornecido
         do {
             fat *= cont;
-            cont++;
+            cont++;//atualiza o contador da estrutura de repetição
         } while (cont <= num);
         
+        //informa o fatorial do número fornecido
         System.out.println("O fatorial de " + num + " é: " + fat);
     }
 
